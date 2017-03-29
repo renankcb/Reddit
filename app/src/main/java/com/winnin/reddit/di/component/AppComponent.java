@@ -10,14 +10,16 @@ import javax.inject.Singleton;
 
 import dagger.Component;
 
+/**
+ * Created by RenanKirk on 28/03/2017.
+ */
+
 @Singleton
 @Component(modules = {HttpModule.class, ApplicationModule.class})
 public interface AppComponent {
     void inject(AbstractCategoryFragment fragment);
 
     void inject(MainActivity fragment);
-
-//    void inject(RepoFragment fragment);
 
     CategoryApi api();
 }
