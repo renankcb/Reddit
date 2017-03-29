@@ -1,4 +1,4 @@
-package com.winnin.reddit.domain.model;
+package com.winnin.reddit.model;
 
 /**
  * Created by RenanKirk on 25/03/2017.

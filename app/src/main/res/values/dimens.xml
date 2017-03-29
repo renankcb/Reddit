@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_category_item">12dp</dimen>
+    <dimen name="margin_left_text_category_item">10dp</dimen>
+    <dimen name="text_size_category_title">14sp</dimen>
+    <dimen name="text_size_category_subtitle">12sp</dimen>
+</resources>

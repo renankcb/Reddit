@@ -1,4 +1,4 @@
-package com.winnin.reddit.domain.model;
+package com.winnin.reddit.model;
 
 import java.util.List;
 

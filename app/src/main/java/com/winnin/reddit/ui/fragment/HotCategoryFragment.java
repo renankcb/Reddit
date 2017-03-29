@@ -1,30 +1,20 @@
 package com.winnin.reddit.ui.fragment;
 
 import com.winnin.reddit.R;
-import com.winnin.reddit.domain.model.Response;
+import com.winnin.reddit.model.*;
 
 /**
  * Created by RenanKirk on 25/03/2017.
  */
 
-public class HotCategoryFragment extends AbstractRedditCategoryFragment {
+public class HotCategoryFragment extends AbstractCategoryFragment {
+    @Override
+    protected String getCategory() {
+        return "hot";
+    }
+
     @Override
     protected int getResourceLayout() {
         return R.layout.pager_content_fragment;
-    }
-
-    @Override
-    public void showContentListCategory(Response posts) {
-
-    }
-
-    @Override
-    public void showError(String message) {
-
-    }
-
-    @Override
-    public void showComplete() {
-
     }
 }

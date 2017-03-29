@@ -3,4 +3,5 @@
     <string name="title_news">News</string>
     <string name="title_hot">Hot</string>
     <string name="title_rising">Rising</string>
+    <string name="erro_no_carregamento_dos_itens">error_msg</string>
 </resources>
